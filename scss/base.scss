@@ -1,0 +1,88 @@
+@import 'utils.scss';
+@import 'buttons.scss';
+@import 'el-1.scss';
+@import 'el-2.scss';
+
+
+* {
+  margin: auto 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 10px;;
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+main {
+  padding: 4% 10% 6% 10%;
+  background-image: linear-gradient(to right, rgba(103, 62, 152, 0.7), rgba(171, 112, 175, 0.6)), url("../img/bg_t@1X.png");
+  height: 62.7rem;
+  background-size: 100% 100%;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      width: 66%;
+      position: relative;
+      top: -20%;
+      display: flex;
+      justify-content: space-between;
+      li:nth-child(2){
+        border-bottom: 0.1rem solid rgba(255, 255, 255, 255);
+      }
+    }
+  }
+  .container-flex {
+    .bg-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -10;
+      background-color: rgb(255, 255, 255);
+      opacity: 30%;
+      width: 107%;
+      height: 92%;
+      transform: translate(-3.5%, 4.5%);
+    }
+    .bg-2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -50;
+      background-color: rgb(255, 255, 255);
+      opacity: 30%;
+      width: 104%;
+      height: 96%;
+      transform: translate(-2%, 2.5%);
+    }
+  }
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../Roboto/Roboto-Bold.ttf");
+}
+@font-face{
+  font-family: Roboto-Condensed;
+  src: url("../Roboto/robotocondensed/RobotoCondensed-Regular.ttf");
+}

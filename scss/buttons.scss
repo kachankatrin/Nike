@@ -1,0 +1,35 @@
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1%;
+  color: rgb(233, 233, 233);
+}
+
+.btn-add {
+  font-weight: 100;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: -2%;
+  right: 2%;
+  margin: 1%;
+  color: rgb(31, 31, 31);
+}
+
+.btn-add-wish {
+  margin: 2% 0;
+  padding: 0.3rem 2.5rem;
+  text-transform: uppercase;
+  display: flex;
+  font-family: Roboto-Condensed;
+  font-size: 1.3rem;
+  background-color: rgb(162, 0, 184);
+  color: rgba(255, 255, 255, 255);
+  border: 0.1rem solid rgb(162, 0, 184);
+  &:nth-child(2){
+    padding: 0.3rem 3.5rem;
+    color: rgba(0, 0, 0, 255);
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid rgba(0, 0, 0, 1);
+  }
+}
